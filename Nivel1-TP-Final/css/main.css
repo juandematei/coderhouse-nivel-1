@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900|Lora:400,700|Pacifico");
+body {
+  font-family: "Lora", serif; }
+
+header {
+  height: 500px;
+  background: url(../img/header-bg.jpg);
+  background-size: cover; }
+
+header nav.navbar-inverse {
+  background: rgba(62, 68, 77, 0.8);
+  border: none;
+  margin: 0;
+  padding: 0;
+  height: 60px; }
+
+header nav.navbar .navbar-header > a > h1 {
+  color: white;
+  font-family: "Pacifico", cursive;
+  font-size: 22px;
+  margin: 5px 0; }
+
+header nav.navbar #main-nav a {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 5px 0; }
+
+header nav.navbar #main-nav a:hover {
+  border-bottom: 3px solid #49dbed; }
+
+header #welcome-banner {
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 80px 0 20px 0;
+  height: 100%;
+  text-align: center; }
+  header #welcome-banner h2, header #welcome-banner h3 {
+    text-shadow: 0 0 10px #3e444d; }
+  header #welcome-banner h2 {
+    font-family: "Pacifico", cursive; }
+  header #welcome-banner h3 {
+    font-family: "Lato", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    header #welcome-banner h3 span {
+      color: #49dbed; }
+  header #welcome-banner hr {
+    display: block;
+    width: 120px;
+    border-top: 6px solid white; }
+  header #welcome-banner p {
+    font-family: "Lato", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: right; }
+
+section {
+  padding: 50px 0; }
+  section h2 {
+    font-family: "Lato", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #3e444d;
+    margin-bottom: 15px; }
+  section p {
+    line-height: 1.75;
+    color: #3e444d;
+    font-size: 16px; }
+  section h2.light, section p.light {
+    color: white; }
+  section hr {
+    display: block;
+    width: 120px;
+    border-top: 6px solid #49dbed; }
+  section hr.light {
+    border-top: 6px solid white; }
+
+section#about {
+  background-color: #f4f5f7; }
+  section#about #carousel-team > .carousel > .carousel-inner > .item {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto 60px auto; }
+  section#about #carousel-team > div > ol > li {
+    border: 1px solid #ccc; }
+  section#about #carousel-team > div > ol > li.active {
+    background: #ccc; }
+
+section#buy {
+  background: url(../img/faces.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(53, 216, 235, 0.8); }
+  section#buy a.btn {
+    background: rgba(255, 255, 255, 0.2);
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 0; }
+  section#buy a.btn:hover {
+    background: #49dbed; }
+
+section#features {
+  background: #f4f5f7; }
+
+section#color {
+  background: url(../img/screen.png), #49dbed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  height: 500px; }
+
+section#customers {
+  background: #3e444d; }
+  section#customers #carousel-customers > div > div > div.item > img {
+    width: 200px;
+    display: inline-block; }
+  section#customers #carousel-customers > .carousel > .carousel-inner > .item {
+    margin: 0 auto 60px auto; }
+
+section#pricing {
+  background-color: #f4f5f7; }
+
+section#buy-two {
+  background: #49dbed; }
+  section#buy-two a.btn {
+    background: #f4f5f7;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3e444d;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border: 1px solid #c8cdd7;
+    border-bottom: 4px solid #c8cdd7;
+    border-radius: 0; }
+  section#buy-two a.btn:hover {
+    background: #49dbed; }
+
+section#contact {
+  background-color: #f4f5f7; }
+
+footer {
+  color: white; }
+  footer .footer-top {
+    background: #3e444d;
+    padding: 30px 0; }
+    footer .footer-top h4 {
+      font-family: "Lato", sans-serif;
+      margin-bottom: 20px; }
+    footer .footer-top h4.brand-logo {
+      font-family: "Pacifico", cursive;
+      font-size: 28px; }
+    footer .footer-top nav > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      footer .footer-top nav > ul li {
+        margin-bottom: 10px; }
+      footer .footer-top nav > ul a {
+        color: white;
+        text-decoration: none; }
+      footer .footer-top nav > ul a:hover {
+        color: #49dbed; }
+    footer .footer-top #footer-nav-social ul {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+    footer .footer-top #footer-nav-social li a {
+      display: block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border-radius: 50%; }
+    footer .footer-top #footer-nav-social li a:hover.facebook {
+      background: #3b5998;
+      color: white; }
+    footer .footer-top #footer-nav-social li a:hover.twitter {
+      background: #55acee;
+      color: white; }
+    footer .footer-top #footer-nav-social li a:hover.dribbble {
+      background: #ea4c89;
+      color: white; }
+    footer .footer-top #footer-nav-social li a:hover.google-plus {
+      background: #dd4b39;
+      color: white; }
+  footer .footer-bottom {
+    background: #272b31;
+    padding: 20px 0; }
+    footer .footer-bottom p {
+      font-size: 12px;
+      color: #ccc;
+      margin: 0;
+      padding: 0;
+      line-height: 20px; }

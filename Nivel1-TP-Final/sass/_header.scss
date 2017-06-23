@@ -1,0 +1,65 @@
+header {
+  nav.navbar-inverse {
+    background: rgba(62, 68, 77, 0.8) ;
+    border: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+  }
+  nav.navbar {
+    .navbar-header > a > h1 {
+      color: white;
+      font-family: $brand-font;
+      font-size: 22px;
+      margin: 5px 0;
+    }
+    #main-nav {
+      a {
+        color: white;
+        font-family: $sans-serif-font;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin: 5px 0;
+      }
+      a:hover {
+        border-bottom: 3px solid $primary-color;
+      }
+    }
+  }
+  #welcome-banner {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 0 20px 0;
+    height: 100%;
+    text-align: center;
+    h2,h3 {
+      text-shadow: 0 0 10px $dark-gray;
+    }
+    h2 {
+      font-family: $brand-font;
+    }
+    h3 {
+      font-family: $sans-serif-font;
+      font-size: 60px;
+      font-weight: 700;
+      text-transform: uppercase;
+      span {
+        color: $primary-color;
+      }
+    }
+    hr {
+      display: block;
+      width: 120px;
+      border-top: 6px solid white;
+    }
+    p {
+      font-family: $sans-serif-font;
+      font-size: 24px;
+      font-weight: 600;
+      text-align: right;
+    }
+  }
+}
