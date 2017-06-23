@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: Montserrat, sans-serif;
+  color: #777; }
+
+section {
+  padding: 150px 0; }
+  section h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222; }
+  section h3 {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    color: #777;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400; }
+
+#customers {
+  padding: 40px 0; }
+
+.bg-gris-claro {
+  background-color: #eee; }
+
+.bg-dark-map {
+  background-color: #222;
+  background-image: url(../images/map-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .bg-dark-map .texto-claro {
+    color: #fff; }
+
+#row-fix {
+  margin: 0; }
+
+::-moz-selection {
+  background: #fed136; }
+
+::selection {
+  background: #fed136; }
+
+header {
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px; }
+
+#header-nav {
+  padding: 15px 0;
+  background-color: #222;
+  border: none; }
+  #header-nav .brand-logo-me {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: #fed136; }
+  #header-nav ul li {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1em; }
+    #header-nav ul li a {
+      color: #fff; }
+    #header-nav ul li a:hover {
+      color: #fed136;
+      transition: background-color 300ms; }
+
+#header-nav-scroll li.active a {
+  background-color: #fed136; }
+
+#header-nav-scroll li.active a:hover {
+  color: #fff; }
+
+#header-jumbotron {
+  background-color: transparent;
+  color: #fff; }
+  #header-jumbotron .jumbotron-me {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 700px; }
+    #header-jumbotron .jumbotron-me h1 {
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 75px;
+      line-height: 75px;
+      margin-bottom: 50px; }
+    #header-jumbotron .jumbotron-me p {
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-style: italic;
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 25px; }
+    #header-jumbotron .jumbotron-me .btn-me {
+      background-color: #fed136;
+      border: none;
+      text-transform: uppercase;
+      padding: 20px 30px;
+      border-radius: 3px;
+      font-weight: 700; }
+    #header-jumbotron .jumbotron-me .btn-me:hover {
+      background: #fec503; }
+
+#services .services-icon-me {
+  background-color: #fed136;
+  color: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center; }
+  #services .services-icon-me i {
+    line-height: 80px; }
+
+#services .services-title-me {
+  text-align: center;
+  text-transform: capitalize;
+  color: #222;
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: 700; }
+
+#services .services-description-me {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #777;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 14px; }
+
+#about .row-timeline {
+  margin-bottom: 100px; }
+
+#about .about-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  text-transform: capitalize;
+  margin-bottom: 10px; }
+
+#about .about-date {
+  text-transform: uppercase; }
+
+#about .about-content {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.75; }
+
+#about .about-line:after {
+  content: "";
+  height: 1150px;
+  width: 2px;
+  background: #eee;
+  left: 50%;
+  margin-left: -1px;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
+
+#about .about-image {
+  max-width: 100%;
+  height: auto;
+  border: 6px solid #eee;
+  vertical-align: middle;
+  position: relative;
+  z-index: 2;
+  background-color: #fed136; }
+  #about .about-image p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.75;
+    padding: 30px; }
+
+#team .col-md-4 {
+  text-align: center;
+  margin: 40px auto; }
+
+#team .team-photo {
+  border: 5px solid #fff;
+  border-radius: 50%; }
+
+#team .team-name {
+  text-align: center;
+  text-transform: capitalize;
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0; }
+
+#team .team-tagline {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 10px;
+  font-size: 14px; }
+
+#team .team-social {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  #team .team-social a {
+    background-color: #222;
+    color: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px; }
+  #team .team-social a:hover {
+    background-color: #fed136;
+    transition: background-color 300ms; }
+
+#team .team-footer {
+  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 16px; }
+
+#contact .btn-me {
+  background-color: #fed136;
+  border: none;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  border-radius: 3px;
+  font-weight: 700;
+  color: #fff; }
+
+#contact .btn-me:hover {
+  background: #fec503; }
+
+#contact .form-control-me {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 30px; }
+
+#contact textarea {
+  height: 226px; }
+
+#contact input:focus,
+#contact textarea:focus {
+  border-color: #fed136;
+  outline: none;
+  box-shadow: none; }
+
+footer {
+  background-color: #fff;
+  padding: 20px 0; }
+  footer .copyright-text {
+    line-height: 40px;
+    text-align: center; }
+  footer .social-links {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    footer .social-links a {
+      background-color: #222;
+      color: #fff;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      line-height: 40px;
+      text-align: center;
+      margin: 0 10px;
+      transition: background-color 300ms; }
+    footer .social-links a:hover {
+      background-color: #fed136; }
+  footer .footer-nav {
+    line-height: 40px;
+    text-align: center; }
+    footer .footer-nav a {
+      color: #fed136;
+      display: inline-block;
+      margin: 0 10px; }
+    footer .footer-nav a:hover {
+      text-decoration: underline; }

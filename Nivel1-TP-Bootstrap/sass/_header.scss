@@ -1,0 +1,81 @@
+header {
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+#header-nav {
+  padding: 15px 0;
+  background-color: $gris-oscuro;
+  border: none;
+  .brand-logo-me {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+    color: $primary-color;
+  }
+  ul {
+    li {
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-weight: $text-bold;
+      letter-spacing: 0.1em;
+      a {
+        color: #fff;
+      }
+      a:hover {
+        color: $primary-color;
+        transition: background-color 300ms;
+      }
+    }
+  }
+}
+#header-nav-scroll {
+  li.active {
+    a {
+      background-color: $primary-color;
+    }
+    a:hover {
+      color: #fff;
+    }
+  }
+}
+#header-jumbotron {
+  background-color: transparent;
+  color: #fff;
+
+  .jumbotron-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+    h1 {
+      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      font-weight: $text-bolder;
+      font-size: 75px;
+      line-height: 75px;
+      margin-bottom: 50px;
+    }
+    p {
+      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-style: italic;
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 25px;
+    }
+    .btn-me {
+      background-color: $primary-color;
+      border: none;
+      text-transform: uppercase;
+      padding: 20px 30px;
+      border-radius: 3px;
+      font-weight: $text-bolder;
+    }
+    .btn-me:hover {
+      background: darken($primary-color, 10);
+    }
+  }
+}

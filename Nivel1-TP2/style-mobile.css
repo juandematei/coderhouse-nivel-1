@@ -1,0 +1,24 @@
+@media (max-width: 320px) {
+  .services-wid {
+    flex-flow: column;
+  }
+  .column {
+    flex-flow: column;
+  }
+  .services-column-center {
+    display: none;
+  }
+  .services-column-left, .services-column-right {
+    text-align: center;
+    padding: 0;
+  }
+  .services-column-left img, .services-column-right img {
+    position: static;
+  }
+  .footer-message, .footer-nav {
+    display: none;
+  }
+  .copyright {
+    text-align: center;
+  }
+}

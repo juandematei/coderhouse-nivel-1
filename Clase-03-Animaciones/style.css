@@ -1,0 +1,49 @@
+@keyframes nombre {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+.keyframe-cuadrado {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation: nombre 1s infinite;
+  transition-property: all;
+  transition-timing-function: linear;
+}
+div {
+  width: 75px;
+  height: 75px;
+}
+.contenedor-circulo {
+  width: 100%;
+  height: 100px;
+  background: orange;
+}
+.contenedor-circulo:hover .circulo {
+  transform: translateX(100px);
+}
+.circulo {
+  border-radius: 50%;
+  background: aqua;
+  transition: 300ms all linear;
+}
+.contenedor-cuadrado {
+  width: 75px;
+  height: 500px;
+  background: blue;
+}
+.contenedor-cuadrado:hover .cuadrado {
+  transform: translateY(300px) rotate(45deg) scale(2);
+  background: pink;
+}
+.cuadrado {
+ background: lime;
+ transition: 300ms all linear;
+}

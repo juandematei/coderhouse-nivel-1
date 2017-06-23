@@ -1,0 +1,29 @@
+#services {
+  .services-icon-me {
+    background-color: $primary-color;
+    color: #fff;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+      i {
+        line-height: 80px;
+      }
+  }
+  .services-title-me {
+    text-align: center;
+    text-transform: capitalize;
+    color: $gris-oscuro;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: $text-bolder;
+  }
+  .services-description-me {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: $gris-medio;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,49 @@
+#about {
+  .row-timeline {
+    margin-bottom: 100px;
+  }
+  .about-heading {
+    font-size: 18px;
+    font-weight: $text-bolder;
+    color: $gris-oscuro;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  .about-date {
+    text-transform: uppercase;
+  }
+  .about-content {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: $gris-medio;
+    line-height: 1.75;
+  }
+  .about-line:after {
+    content: "";
+    height: 1150px;
+    width: 2px;
+    background: $gris-claro;
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+  .about-image {
+    max-width: 100%;
+    height: auto;
+    border: 6px solid $gris-claro;
+    vertical-align: middle;
+    position: relative;
+    z-index: 2;
+    background-color: $primary-color;
+    p {
+      color: #fff;
+      font-size: 18px;
+      font-weight: $text-bolder;
+      text-transform: uppercase;
+      line-height: 1.75;
+      padding: 30px;
+    }
+  }
+}

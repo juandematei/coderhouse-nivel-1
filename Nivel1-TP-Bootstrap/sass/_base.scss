@@ -1,0 +1,48 @@
+body {
+  font-family: Montserrat, sans-serif;
+  color: $gris-medio;
+}
+section {
+  padding: 150px 0;
+
+  h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: $gris-oscuro;
+  }
+  h3 {
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: italic;
+    color: #777;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}
+#customers {
+  padding: 40px 0;
+}
+.bg-gris-claro {
+  background-color: $gris-claro;
+}
+.bg-dark-map {
+  background-color: $gris-oscuro;
+  background-image: url(../images/map-image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .texto-claro {
+    color: #fff;
+  }
+}
+#row-fix {
+  margin: 0;
+}
+::selection {
+  background: $primary-color;
+}

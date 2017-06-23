@@ -1,0 +1,171 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clear-fix {
+	clear: both;
+}
+.contenedor {
+	width: 1170px;
+	margin: 0 auto;
+}
+.contenedor-chico {
+	width: 800px;
+	margin: 0 auto;
+}
+
+/*HEADER*/
+header {
+	background-color: #00bd9d;
+}
+nav {
+	background-color: #2b3e4f;
+	height: 110px;
+}
+nav h3 {
+	font-size: 24px;
+	float: left;
+	line-height: 110px;
+}
+nav ul {
+	float: right;
+	line-height: 110px;
+}
+nav li {
+	float: left;
+	list-style: none;
+	font-size: 16px;
+	padding: 0 10px;
+}
+nav a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*MAIN*/
+main {
+	color: #fff;
+	text-align: center;
+	padding: 140px 0 100px 0;
+}
+h1 {
+	font-size: 56px;
+	text-transform: uppercase;
+	margin: 46px 0 36px 0;
+}
+h2 {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+h4 {
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+/*PORTFOLIO*/
+#portfolio {
+	background-color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+#portfolio li {
+	float: left;
+	list-style: none;
+	margin: 15px;
+}
+
+/*ABOUT*/
+#about {
+	background-color: #00bd9d;
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+.contenedor-chico p {
+	font-size: 16px;
+	text-align: justify;
+	width: 50%;
+	float: left;
+	padding: 30px;
+}
+
+/*CONTACT*/
+#contact {
+	background-color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+form {
+	width: 790px;
+	text-align: left;
+}
+.form {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid 1px #ccc;
+	width: 100%;
+	line-height: 85px;
+	font-size: 18px;
+}
+.send {
+	background-color: #00bd9d;
+	border: 1px solid #00bd9d;
+	border-radius: 5px;
+	color: #fff;
+	width: 100px;
+	height: 65px;
+	line-height: 65px;
+	margin: 10px;
+	font-size: 16px;
+}
+
+/*FOOTER*/
+footer {
+	background-color: #2b3e4f;
+	color: #fff;
+	text-align: center;
+
+}
+.pre-footer {
+	height: 255px;
+	width: 1000px;
+	padding: 76px 0 60px 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.pre-footer h3 {
+	font-size: 20px;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+.location p {
+	font-size: 16px;
+}
+.social-links li {
+	float: left;
+	list-style: none;
+	padding: 6px;
+}
+.social-links a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: solid 2px #fff;
+	line-height: 50px;
+}
+.copyright {
+	background-color: #213140;
+	font-size: 12px;
+	line-height: 70px;
+	display: block;
+}
